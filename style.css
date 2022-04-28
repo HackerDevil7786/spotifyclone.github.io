@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Roboto:wght@500&family=Ubuntu&family=Varela+Round&display=swap');
+/* font-family: 'Baloo Bhaina 2', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Varela Round', sans-serif; */
+*{
+    margin:0;
+    padding:0;
+}
+body 
+{
+    /* border:2px solid red; */
+    height:100vh;
+    width:100vw;
+   
+    
+}
+/* .songList
+{
+    overflow-y:auto;
+    width:90%;
+} */
+nav 
+{
+    /* position:absolute; */
+    /* border:2px solid red; */
+   
+    background-color: black;
+    color:white;
+    height:12%;
+    font-family: 'Ubuntu', sans-serif;
+}
+ul
+{
+   
+    display:flex;
+    /* border:2px solid blue; */
+    height:80%;
+  
+   
+   margin:0.4% 17%;
+   /* justify-content:center; */
+   align-items:center;
+    width:70%;
+    
+}
+li
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    list-style:none;
+    margin:2% 4%;
+    /* border:2px solid red; */
+    font-size:1.1rem;
+    width:9%;
+    height:55%;
+}
+.image img
+{
+    /* border:2px solid red; */
+    height:87%;
+    width:27%;
+   
+  
+    
+
+}
+.image div
+{
+    margin-left:4%;
+    display:flex;
+    /* border:2px solid red; */
+    width:46%;
+    justify-content:center;
+    align-items:center;
+}
+.image
+{
+    /* border:2px solid red; */
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
+    position:absolute;
+    color:white;
+    top:1.7%;
+    font-weight:bold;
+    font: size 5%;
+    
+    left:1%;
+    width:14%;
+    height:8%;
+}
+h2
+{
+    color:white;
+}
+
+.container
+{
+    overflow-y:auto;
+    display:flex;
+    justify-content:
+    border:2px solid red;
+    height:67.3%;
+    width:98.2%;
+    
+  
+   font-family: 'Varela Round', sans-serif;
+   margin:0.4% auto;
+    border-radius:12px;
+    padding:0.7%;
+    background :url('bg.jpg') no-repeat center center/cover;
+}
+.bottom
+{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    position:sticky;
+    /* border:2px solid red; */
+    height:13%;
+
+    background-color:black;
+     bottom:0;
+}
+#myProgressBar
+{
+    width: 80%;
+   
+    /* border:2px solid red; */
+    cursor:pointer;
+}
+.icons
+{
+    display:flex;
+    justify-content:center;
+    align-items: center;;
+    /* border:2px solid red; */
+    width:19%;
+    margin-top:0.1%;
+    height:70%;
+}
+.common
+{
+    /* border: 2px solid red; */
+    width: 20%;
+    height: 71%;
+    margin: 1.3%;
+}
+
+.logo
+{
+    /* border: 2px solid red; */
+    height: 83.4%;
+    margin-left: 23%;
+    width: 18.3%;
+    cursor:pointer;
+}
+.songItem
+{
+    display:flex;
+    background-color:white;
+    width:50%;
+    border-radius:12px;
+    border:2px solid blue;
+    margin-left:0.3%;
+    margin-top:1%;
+    justify-content: space-between;
+}
+.upperPause
+{
+    position:absolute;
+    visibility: hidden;
+    left:48%;
+    height:92%;width:27%;
+}
+span
+{
+    /* border:2px solid red; */
+    display:flex;
+    margin:0% 2%;
+    align-items:center;
+    font-size:1.1rem;
+}
+.songlistplay
+{
+    margin-left:3%;
+    position:relative;
+    /* border:2px solid red; */
+}
+.songItemContainer
+{
+    margin-top:5%;
+}
+.cover
+{
+    height:50%;
+    /* border:2px solid red; */
+    width:5%;
+    border-radius:34px;
+    margin-left:1%;
+}
+.songT
+{
+    /* border:2px solid red; */
+    width:70%;
+    margin-left:1%;
+}
+.songInfo
+{
+    position:absolute;
+    display:flex;
+
+    left:12%;
+    color:white;
+    font-family: 'Varela Round', sans-serif;
+    /* border:2px solid red; */
+    left:1%;
+    top:46%;
+}
+
+.timestamp
+{
+    cursor:pointer;
+}
+.songInfo img
+{
+    opacity:0;
+    transition: opacity  1s ease-in;
+}
+.hide
+{
+    visibility:visible;
+    cursor:pointer;
+}
+.pause
+{
+    visibility:hidden;
+    position:absolute;
+    width: 4%;
+    height: 57%;
+    cursor:pointer;
+}
